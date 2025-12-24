@@ -15,5 +15,5 @@ for(let i = 0; i < carrito.length; i++ ){
 
 // ForEach
 carrito.forEach( function(producto) {
-    console.log( `Articulo: ${ producto.nombre } Precio: $ producto.precio} ` )
+    console.log( `Articulo: ${ producto.nombre } Precio: ${ producto.precio} ` )
 })
